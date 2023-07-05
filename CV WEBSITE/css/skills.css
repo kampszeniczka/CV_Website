@@ -1,0 +1,212 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Dosis', sans-serif;
+    background-color: #E5E5E5;
+    color: #707070;
+    text-transform: lowercase; 
+    letter-spacing: 2px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    overflow: hidden;
+    position: relative;
+  }
+
+  .content {
+    width: 1000px; 
+    height: 500px; 
+    background-color: #f1f1f1; 
+    padding: 0px; 
+    text-align: center; 
+    position: relative;
+    box-shadow: 1px 1px 2px #dfdfdf;
+    overflow: auto;
+  }
+
+  nav {
+    position: sticky;
+    top: 0; 
+    top: -40px; 
+    width: 100%; 
+    height: 40px;
+    background-color: #f0f0f0; 
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+  }
+  
+  nav ul li a {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none; 
+    font-weight: bold;
+    color: #707070; 
+    line-height: 40px;
+    transition: .2s all;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav ul li a:hover {
+      border-bottom: 5px solid #90CACA;
+      transition: .2s all;
+  }
+
+
+.skills,
+.technical-skills-and-tools,
+.soft-skills {
+  margin: 40px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+}
+
+.skills h2,
+.technical-skills-and-tools h2,
+.soft-skills h2 {
+  color: #90CACA;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+  .chart {
+    width: 40%;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .bar {
+    position: relative;
+    height: 8px;
+    background-color: #D3D3D3;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  .bar-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #90CACA;
+    border-radius: 4px;
+  }
+
+  .function {
+     color: #707070;
+  }
+  .percentage {
+    color: #90CACA;
+  }
+
+  .bar:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .08), 0 1px 2px rgba(0, 0, 0, .04);
+  }
+
+  .uxui {
+    width: 65%;
+    animation: uxui 2s;
+  }
+  .graphic-design {
+    width: 70%;
+    animation: graphic-design 2s;
+  }
+  .web-development {
+    width: 50%;
+    animation: web-development 2s;
+  }
+  .testing {
+    width: 75%;
+    animation: testing 2s;
+  }
+  .seo {
+    width: 40%;
+    animation: seo 2s;
+  }
+  .data-bases {
+    width: 35%;
+    animation: data-bases 2s;
+  }
+
+  @keyframes uxui {
+    0%{
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+  }
+  @keyframes graphic-design {
+    0%{
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+  }
+  @keyframes web-development {
+    0%{
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+  }
+  @keyframes testing {
+    0%{
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+  }
+  @keyframes seo {
+    0%{
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+  }  @keyframes data-bases {
+    0%{
+        width: 0%;
+    }
+    100% {
+        width: 35%;
+    }
+  }
+
+  .technical-skills-and-tools ul li,
+  .soft-skills ul li {
+    margin-left: 20px;
+    text-align: left;
+  }
+
+

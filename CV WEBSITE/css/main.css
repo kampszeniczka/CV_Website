@@ -1,0 +1,80 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Dosis', sans-serif;
+    background-color: #E5E5E5;
+    color: #707070;
+    text-transform: lowercase; 
+    letter-spacing: 2px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1 {
+  color: #90CACA;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+
+  .content {
+    width: 1000px; 
+    height: 500px; 
+    background-color: #f1f1f1; 
+    padding: 0px; 
+    text-align: center; 
+    position: relative;
+    box-shadow: 1px 1px 2px #dfdfdf;
+  }
+
+  nav {
+    position: absolute; 
+    top: -40px; 
+    width: 100%; 
+    height: 40px;
+    background-color: #f0f0f0; 
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  nav ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+  
+  nav ul li a {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none; 
+    font-weight: bold;
+    color: #707070; 
+    line-height: 40px;
+    transition: .2s all;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav ul li a:hover {
+      border-bottom: 5px solid #90CACA;
+      transition: .2s all;
+  }
+
+  .fab {
+    color: #90CACA;
+    font-size: 30px;
+    margin-right: 20px;
+    transition: transform 0.3s;
+  }
+  .fab:hover {
+    transform: scale(1.25);
+  }
+ 
